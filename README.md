@@ -13,7 +13,7 @@ Project: Register File + ALU
 
 **Workload**
 - [ ] Remove Multiplier
-- [ ] 8 bits to 4 bits?
+- [ ] 8 bits to 4 bits? [Currently in PR]
 - [ ] Remove MUX3?
 - [ ] cut down number of registers? (8 registers currently)
 
