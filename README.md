@@ -12,7 +12,7 @@ Project: Register File + ALU
 - [x] Fix Oscillation Apparent
 
 **Workload**
-- [ ] Remove Multiplier
+- [ ] Remove Multiplier [Currently in PR]
 - [ ] 8 bits to 4 bits? [Currently in PR]
 - [ ] Remove MUX3?
 - [ ] cut down number of registers? (8 registers currently)
