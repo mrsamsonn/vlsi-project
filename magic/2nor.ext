@@ -1,0 +1,19 @@
+timestamp 1708981382
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+node "VDD" 32 1198.44 -2 -9 poc 48 40 32 32 0 0 0 0 0 0 0 0 0 0 240 128 0 0 0 0
+node "a_6_16#" 12 0 6 16 pdif 0 0 80 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "B" 50 1777.33 6 -1 ndif 80 48 24 20 0 0 0 0 0 0 74 66 0 0 164 90 0 0 0 0
+node "A" 33 1182.96 -2 7 pc 0 0 0 0 0 0 0 0 0 0 76 68 0 0 16 16 0 0 0 0
+node "VSS" 7 1150.65 -2 16 pdc 16 16 24 20 0 0 0 0 0 0 0 0 0 0 212 114 0 0 0 0
+cap "A" "VSS" 36.9392
+cap "A" "VDD" 46.174
+cap "B" "VSS" 69.261
+cap "B" "VDD" 115.435
+fet nfet 26 -1 27 0 8 12 "Gnd!" "B" 4 0 "B" 4 0 "VDD" 4 0
+fet nfet 4 -1 5 0 8 12 "Gnd!" "A" 4 0 "VDD" 4 0 "B" 4 0
+fet pfet 26 16 27 17 8 12 "Vdd!" "B" 4 0 "a_6_16#" 4 0 "B" 4 0
+fet pfet 4 16 5 17 8 12 "Vdd!" "A" 4 0 "VSS" 4 0 "a_6_16#" 4 0

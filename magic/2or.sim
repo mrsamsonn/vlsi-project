@@ -1,0 +1,12 @@
+| units: 30 tech: scmos format: MIT
+n INV VDD a_42_n1# 2 4 40 0
+p INV INV a_42_16# 2 4 40 16
+n INV INV VDD 2 4 26 0
+p INV a_6_16# INV 2 4 26 16
+p A VSS a_6_16# 2 4 4 16
+n A VDD INV 2 4 4 0
+R VDD 35
+R a_6_16# 12
+C INV GND 2.85
+R INV 90
+R A 33
