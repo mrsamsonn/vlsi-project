@@ -38,7 +38,8 @@ Parts: MUX3, Reg File, ALU
 
 4 bit MUX3
 
-![8 bit 3to1MUX](https://github.com/mrsamsonn/vlsi-project/assets/98930957/a44f0049-fbc7-4851-b8b7-1f4f8feb97f4)
+![image](https://github.com/mrsamsonn/vlsi-project/assets/98930957/5a853507-5ef3-4111-9857-65be3b77bb49)
+
 
 1 bit MUX
 
@@ -59,12 +60,14 @@ Register File
 
 MUX8 (to cover 8 registers)
 
-![8 bit MUX](https://github.com/mrsamsonn/vlsi-project/assets/98930957/634455a2-917d-4b63-84a9-a41fbe90f3fb)
+![image](https://github.com/mrsamsonn/vlsi-project/assets/98930957/3a117b66-c332-4932-b393-d25d4bb669b0)
 
 
-8 bit Register
 
-<img width="924" alt="image" src="https://github.com/mrsamsonn/vlsi-project/assets/98930957/9b0ddc9a-6b17-4d85-a415-f31b6a4f8126">
+4 bit Register
+
+![image](https://github.com/mrsamsonn/vlsi-project/assets/98930957/bdcaee91-cc86-4134-aaae-b37431f57798)
+
 
 D Flip Flop + MUX2[as enabler]
 
@@ -84,6 +87,6 @@ D Flip Flop
 
 </br>
 
-ALU
+ALU (Need one more logic to replace multiplier)
 
-![ALU](https://github.com/mrsamsonn/vlsi-project/assets/98930957/a0bab6ac-c0d0-4a39-aeb7-3d22dff6c33f)
+![image](https://github.com/mrsamsonn/vlsi-project/assets/98930957/9b3193b2-cb6f-4e3f-a029-e358ea8a41ae)
