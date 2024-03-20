@@ -56,7 +56,8 @@ Parts: MUX3, Reg File, ALU
 
 Register File
 
-![Reg File](https://github.com/mrsamsonn/vlsi-project/assets/98930957/d1bd9406-3cac-4b56-8874-4eb18b8319ac)
+<img width="862" alt="image" src="https://github.com/mrsamsonn/vlsi-project/assets/98930957/7beeacc0-43db-49b1-9af0-bd99ea1ce79e">
+
 
 MUX8 (to cover 8 registers)
 
