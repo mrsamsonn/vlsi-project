@@ -24,7 +24,8 @@ Parts: MUX3, Reg File, ALU
 
 **Top level**
 
-![main](https://github.com/mrsamsonn/vlsi-project/assets/98930957/8597835f-14f4-42f0-9610-4db2c482ba72)
+<img width="870" alt="Screenshot 2024-03-19 at 3 37 23 PM" src="https://github.com/mrsamsonn/vlsi-project/assets/98930957/2724f08f-e18e-4366-a934-91c9c3273caf">
+
 
 </br>
 </br>
@@ -35,7 +36,7 @@ Parts: MUX3, Reg File, ALU
 
 </br>
 
-8 bit MUX3
+4 bit MUX3
 
 ![8 bit 3to1MUX](https://github.com/mrsamsonn/vlsi-project/assets/98930957/a44f0049-fbc7-4851-b8b7-1f4f8feb97f4)
 
