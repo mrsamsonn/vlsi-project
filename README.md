@@ -18,7 +18,7 @@ Project: Register File + ALU
 - [ ] cut down number of registers? (8 registers currently)
 
 Abstract:
-This project shows three crucial blocks: MUX3, Register File, and Arithmetic Logic Unit (ALU). The MUX3 selects data for storage in the Register File, which features 8 registers and dynamic address selection. The ALU performs arithmetic operations based on user selection, producing 8-bit results. Also, the ALU's output loops back to the MUX3, forming a crucial feedback loop for iterative calculations. Understanding these blocks is essential for understanding computing systems.
+This project shows three crucial blocks: MUX3, Register File, and Arithmetic Logic Unit (ALU). The MUX3 selects data for storage in the Register File, which features 8 registers and dynamic address selection. The ALU performs arithmetic operations based on user selection, producing 4-bit results. Also, the ALU's output loops back to the MUX3, forming a crucial feedback loop for iterative calculations. Understanding these blocks is essential for understanding computing systems.
 
 Parts: MUX3, Reg File, ALU
 
