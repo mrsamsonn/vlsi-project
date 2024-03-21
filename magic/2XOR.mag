@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1708981079
+timestamp 1710984200
 << ntransistor >>
 rect 6 8 8 12
 rect 20 8 22 12
@@ -62,8 +62,8 @@ rect 16 25 20 29
 rect 29 25 33 29
 rect 50 25 54 29
 << metal1 >>
-rect 0 56 12 60
-rect 16 56 68 60
+rect -2 56 12 60
+rect 16 56 70 60
 rect 12 44 16 56
 rect 24 48 64 52
 rect 24 44 28 48
@@ -78,8 +78,8 @@ rect 0 16 64 20
 rect 0 12 4 16
 rect 60 12 64 16
 rect 24 4 28 8
-rect 0 0 24 4
-rect 28 0 68 4
+rect -2 0 24 4
+rect 28 0 70 4
 << labels >>
 rlabel nsubstratencontact 14 58 14 58 5 VDD
 rlabel psubstratepcontact 26 2 26 2 1 VSS

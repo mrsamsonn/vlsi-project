@@ -1,82 +1,64 @@
 magic
 tech scmos
-timestamp 1709752821
+timestamp 1710981592
 << ntransistor >>
 rect 12 8 14 12
 rect 22 8 24 12
-rect 46 8 48 12
 << ptransistor >>
 rect 12 40 14 44
 rect 22 40 24 44
-rect 46 40 48 44
 << ndiffusion >>
-rect 0 8 4 12
 rect 8 8 12 12
 rect 14 8 22 12
 rect 24 8 28 12
-rect 40 8 46 12
-rect 48 8 52 12
-rect 56 8 60 12
 << pdiffusion >>
-rect 0 40 4 44
 rect 8 40 12 44
 rect 14 40 16 44
 rect 20 40 22 44
 rect 24 40 28 44
-rect 40 40 46 44
-rect 48 40 52 44
-rect 56 40 60 44
 << ndcontact >>
 rect 4 8 8 12
 rect 28 8 32 12
-rect 36 8 40 12
-rect 52 8 56 12
 << pdcontact >>
 rect 4 40 8 44
 rect 16 40 20 44
 rect 28 40 32 44
-rect 36 40 40 44
-rect 52 40 56 44
 << psubstratepcontact >>
 rect 4 0 8 4
-rect 36 0 40 4
 << nsubstratencontact >>
-rect 16 48 20 52
-rect 36 48 40 52
+rect 4 48 8 52
+rect 28 48 32 52
 << polysilicon >>
 rect 12 44 14 46
 rect 22 44 24 46
-rect 46 44 48 46
-rect 12 12 14 40
-rect 22 12 24 40
-rect 46 12 48 40
+rect 12 25 14 40
+rect 22 25 24 40
+rect 11 21 14 25
+rect 21 21 24 25
+rect 12 12 14 21
+rect 22 12 24 21
 rect 12 6 14 8
 rect 22 6 24 8
-rect 46 6 48 8
 << polycontact >>
-rect 8 21 12 25
-rect 18 21 22 25
+rect 7 21 11 25
+rect 17 21 21 25
 << metal1 >>
-rect 0 48 16 52
-rect 20 48 36 52
-rect 40 48 60 52
-rect 16 44 20 48
-rect 36 44 40 48
-rect 4 36 8 40
-rect 28 36 32 40
-rect 4 32 48 36
-rect 28 12 32 32
-rect 52 12 56 40
+rect 2 48 4 52
+rect 8 48 28 52
+rect 32 48 34 52
+rect 4 44 8 48
+rect 28 44 32 48
+rect 16 32 20 40
+rect 16 28 32 32
+rect 28 12 32 28
 rect 4 4 8 8
-rect 36 4 40 8
-rect 0 0 4 4
-rect 8 0 36 4
-rect 40 0 60 4
+rect 2 0 4 4
+rect 8 0 34 4
 << labels >>
-rlabel nsubstratencontact 18 50 18 50 5 VDD
-rlabel nsubstratencontact 38 50 38 50 5 VDD
-rlabel polycontact 10 23 10 23 1 A
-rlabel polycontact 20 23 20 23 1 B
+rlabel polycontact 19 23 19 23 1 B
+rlabel polycontact 9 23 9 23 1 A
+rlabel nsubstratencontact 6 50 6 50 1 VDD
 rlabel psubstratepcontact 6 2 6 2 1 VSS
-rlabel psubstratepcontact 38 2 38 2 1 VSS
+rlabel nsubstratencontact 30 50 30 50 1 VDD
+rlabel metal1 30 23 30 23 1 Y
 << end >>
