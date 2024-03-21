@@ -5,7 +5,7 @@ Project: Register File + ALU
 - [x] Logisim functional (unless bugs/issues encountered)
 - [x] magic gate layouts
 - [ ] make a single block as top level
-- [ ] make sure all magic simulates properly (will help us in the long run before we build the parts)
+- [x] make sure all magic simulates properly (will help us in the long run before we build the parts)
 - [ ] build MUX3 in magic?
 - [ ] build Register File in magic?
 - [ ] build ALU in magic?
