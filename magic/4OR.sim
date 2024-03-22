@@ -1,17 +1,17 @@
 | units: 30 tech: scmos format: MIT
 p C a_18_41# a_29_41# 2 4 27 41
 p A VDD a_7_41# 2 4 5 41
-p D a_29_41# INV 2 4 38 41
-n B VSS INV 2 4 16 8
-n A INV VSS 2 4 5 8
-n D VSS INV 2 4 38 8
-p INV VDD Y 2 4 57 41
-n INV VSS Y 2 4 57 8
-n C INV VSS 2 4 27 8
+p D a_29_41# a_0_8# 2 4 38 41
+n B VSS a_0_8# 2 4 16 8
+n A a_0_8# VSS 2 4 5 8
+n D VSS a_0_8# 2 4 38 8
+p a_0_8# VDD Y 2 4 57 41
+n a_0_8# VSS Y 2 4 57 8
+n C a_0_8# VSS 2 4 27 8
 p B a_7_41# a_18_41# 2 4 16 41
 R VSS 56
-C INV GND 3.52
-R INV 89
+C a_0_8# GND 3.52
+R a_0_8# 89
 R D 51
 R C 51
 R B 51
