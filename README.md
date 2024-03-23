@@ -34,15 +34,15 @@ Project: Register File + ALU
 
 </br> -- ** *Layer1: gate-level* **
 
-  - [ ] magic: MUX3
-  - [ ] magic: MUX2
-  - [ ] magic: MUX8
-  - [ ] magic: 3-to-8 Decoder
-  - [ ] magic: D Flip Flop
-  - [ ] magic: full-Adder
-  - [ ] magic: full-Subtractor
-  - [ ] magic: half-Adder
-  - [ ] magic: half-Subtractor
+  - [ ] magic: 1-bit MUX3
+  - [ ] magic: 1-bit MUX2
+  - [ ] magic: 1-bit MUX8
+  - [ ] magic: 1-bit 3-to-8 Decoder
+  - [ ] magic: 1-bit D Flip Flop
+  - [ ] magic: 1-bit full-Adder
+  - [ ] magic: 1-bit full-Subtractor
+  - [ ] magic: 1-bit half-Adder
+  - [ ] magic: 1-bit half-Subtractor
   - [ ] magic: 4-bit AND2
   - [ ] magic: 4-bit OR2
   - [ ] magic: 4-bit NAND2
