@@ -17,6 +17,59 @@ Project: Register File + ALU
 - [x] .cmd test files for IRSIM (turnin command)
 - [ ] partially complete set of Magic layouts for standard cells (these should only be submitted if DRC correct) (turnin command)
 ---
+**Magic Hierarchy Development**
+
+</br>
+ -- ** *Layer0: transistor-level* **
+
+  - [x] magic: OR2 gate
+  - [x] magic: NOR2 gate
+  - [x] magic: INV
+  - [x] magic: OR3 gate
+  - [x] magic: OR4 gate
+  - [x] magic: NAND2 gate
+  - [x] magic: XOR2 gate
+  - [x] magic: AND2 gate
+  - [x] magic: AND3 gate
+
+</br> -- ** *Layer1: gate-level* **
+
+  - [ ] magic: MUX3
+  - [ ] magic: MUX2
+  - [ ] magic: MUX8
+  - [ ] magic: 3-to-8 Decoder
+  - [ ] magic: D Flip Flop
+  - [ ] magic: full-Adder
+  - [ ] magic: full-Subtractor
+  - [ ] magic: half-Adder
+  - [ ] magic: half-Subtractor
+  - [ ] magic: 4-bit AND2
+  - [ ] magic: 4-bit OR2
+  - [ ] magic: 4-bit NAND2
+  - [ ] magic: 4-bit NOR2
+
+</br> -- ** *Layer2: parts-level* **
+
+  - [ ] magic: 4-bit MUX3
+  - [ ] magic: 4-bit MUX8
+  - [ ] magic: 4-bit Register
+  - [ ] magic: 1-bit DFF with Enabler [merge MUX2 + DFF]
+  - [ ] magic: 4-bit Adder
+  - [ ] magic: 4-bit Subtractor
+
+</br> -- ** *Layer3: block-level* **
+
+  - [ ] magic: 4-bit Register File
+  - [ ] magic: 4-bit ALU
+
+</br> -- ** *Layer4: top-level [single block]* **
+
+  - [ ] magic: 4-bit single-block [merge MUX3 + Register File + ALU]
+
+
+</br>
+</br>
+
 **Progress**
 - [x] Logisim functional (unless bugs/issues encountered)
 - [x] magic gate layouts
