@@ -17,7 +17,7 @@ Project: Register File + ALU
 - [x] .cmd test files for IRSIM (turnin command)
 - [ ] partially complete set of Magic layouts for standard cells (these should only be submitted if DRC correct) (turnin command)
 ---
-**Magic Hierarchy Development**
+**Magic Hierarchy Development [Layer0 - Layer4]**
 
 </br>
  -- ** *Layer0: transistor-level* **
