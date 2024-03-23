@@ -65,9 +65,9 @@ Project: Register File + ALU
 </br> -- ** *Layer4: top-level [single block]* **
 
   - [ ] magic: 4-bit single-block [merge MUX3 + Register File + ALU]
-
-
 </br>
+
+---
 </br>
 
 **Progress**
