@@ -13,7 +13,7 @@ Project: Register File + ALU
   - [x] DFFs have serious design flaws. Please fix Logisim simulation is not working.
   - [x] Many of the layouts submitted have design errors in them.
   - [x] Please include .cmd files to demonstrate that the layouts simulate proerly
-- [ ] complete Logisim/LogicWorks schematic (Canvas command)
+- [x] complete Logisim/LogicWorks schematic (Canvas command)
 - [x] .cmd test files for IRSIM (turnin command)
 - [ ] partially complete set of Magic layouts for standard cells (these should only be submitted if DRC correct) (turnin command)
 ---
