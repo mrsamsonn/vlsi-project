@@ -1,6 +1,22 @@
 ## vlsi-project
 Project: Register File + ALU
 
+**Milestone Checklist**
+- [x] Preliminary project cell layouts: defines full schematic hierarchy and functionality.
+- [ ] updated version of your milestone #2 writeup with any changes based on comments made. [ updated MS#2 submission with errors fixed (Canvas)]
+  - [ ] conclusion is missing.
+  - [x] drop multiplication for ALU
+  - [x] schematic is not working
+  - [x] demonstrate loading of values to the reg file and operating on them
+  - [ ] Please only include one test harness. It should consist of input pins, output ins, and a single part. 
+  - [x] Please turn off the three-state inputs on your input pins
+  - [x] DFFs have serious design flaws. Please fix Logisim simulation is not working.
+  - [x] Many of the layouts submitted have design errors in them.
+  - [x] Please include .cmd files to demonstrate that the layouts simulate proerly
+- [ ] complete Logisim/LogicWorks schematic (Canvas command)
+- [x] .cmd test files for IRSIM (turnin command)
+- [ ] partially complete set of Magic layouts for standard cells (these should only be submitted if DRC correct) (turnin command)
+---
 **Progress**
 - [x] Logisim functional (unless bugs/issues encountered)
 - [x] magic gate layouts
