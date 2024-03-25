@@ -10,7 +10,7 @@ Project: Register File + ALU
   - [x] drop multiplication for ALU
   - [x] schematic is not working
   - [x] demonstrate loading of values to the reg file and operating on them
-  - [ ] Please only include one test harness. It should consist of input pins, output ins, and a single part. 
+  - [x] Please only include one test harness. It should consist of input pins, output ins, and a single part. 
   - [x] Please turn off the three-state inputs on your input pins
   - [x] DFFs have serious design flaws. Please fix Logisim simulation is not working.
   - [x] Many of the layouts submitted have design errors in them.
@@ -75,7 +75,7 @@ Project: Register File + ALU
 **Progress**
 - [x] Logisim functional (unless bugs/issues encountered)
 - [x] magic gate layouts
-- [ ] make a single block as top level
+- [x] make a single block as top level
 - [x] make sure all magic simulates properly (will help us in the long run before we build the parts)
 - [ ] build MUX3 in magic?
 - [ ] build Register File in magic?
