@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1711063654
+timestamp 1711391070
 << ntransistor >>
 rect 13 8 15 12
 rect 29 8 31 12
@@ -22,8 +22,7 @@ rect 72 8 76 12
 rect 8 40 13 44
 rect 15 40 20 44
 rect 24 40 29 44
-rect 31 40 36 44
-rect 40 40 45 44
+rect 31 40 45 44
 rect 47 40 52 44
 rect 64 40 70 44
 rect 72 40 76 44
@@ -35,7 +34,6 @@ rect 76 8 80 12
 << pdcontact >>
 rect 4 40 8 44
 rect 20 40 24 44
-rect 36 40 40 44
 rect 52 40 56 44
 rect 60 40 64 44
 rect 76 40 80 44
