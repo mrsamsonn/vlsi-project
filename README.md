@@ -164,4 +164,5 @@ D Flip Flop
 
 ALU (Need one more logic to replace multiplier)
 
-![image](https://github.com/mrsamsonn/vlsi-project/assets/98930957/9b3193b2-cb6f-4e3f-a029-e358ea8a41ae)
+![ALU](https://github.com/mrsamsonn/vlsi-project/assets/98930957/8485986d-7a23-47a6-afa8-3933ee1e8197)
+
