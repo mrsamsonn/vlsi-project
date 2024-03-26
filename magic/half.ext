@@ -1,0 +1,39 @@
+timestamp 1711416793
+version 8.3
+tech scmos
+style HP0.5um(hpcmos14tb)from:N9AE
+scale 1000 1 30
+resistclasses 2800 2300 713000 713000 1 2500 2500 70 70 50
+use 2XOR 2XOR_0 1 0 2 0 1 0
+use 2AND 2AND_0 1 0 94 0 1 0
+node "VSS" 0 184.86 -16 0 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "B" 2 1385.84 82 -25 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148 90 200 116 0 0
+node "Cout" 0 184.86 142 23 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "A" 2 1619.01 58 -8 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 204 118 164 98 0 0
+node "S" 0 184.86 76 28 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+node "VDD" 0 184.86 -16 56 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 24 20 0 0 0 0
+cap "A" "B" 157.096
+cap "2XOR_0/VSS" "2XOR_0/A" 242.413
+cap "2XOR_0/B" "2XOR_0/A" 78.384
+cap "2XOR_0/a_16_25#" "2XOR_0/A" 230.87
+cap "2XOR_0/INV_2/Y" "2XOR_0/INV_2/A" 129.287
+cap "2AND_0/a_14_8#" "2XOR_0/INV_2/A" 39.168
+cap "2XOR_0/INV_2/Y" "2XOR_0/INV_2/VSS" 201.094
+cap "2AND_0/A" "2AND_0/INV" 9.2348
+cap "2XOR_0/INV_2/A" "2XOR_0/INV_2/VSS" 156.768
+cap "2AND_0/A" "2XOR_0/INV_2/Y" 907.032
+cap "2AND_0/A" "2XOR_0/INV_2/A" 78.384
+cap "2AND_0/INV" "2XOR_0/INV_2/A" 26.3851
+cap "2AND_0/A" "2XOR_0/INV_2/VSS" 588.204
+cap "2XOR_0/INV_2/Y" "2XOR_0/INV_2/VDD" 121.207
+merge "2AND_0/VSS" "2XOR_0/INV_2/VSS" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "2AND_0/VDD" "2XOR_0/INV_2/VDD" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "2XOR_0/VSS" "VSS" -184.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "2XOR_0/VDD" "VDD" -184.86 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "2AND_0/B" "2XOR_0/INV_2/A" -347.544 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 -16 -16 0 0
+merge "2XOR_0/INV_2/A" "2XOR_0/B"
+merge "2XOR_0/B" "B"
+merge "2AND_0/A" "2XOR_0/A" -349.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -24 -16 -16 0 0
+merge "2XOR_0/A" "A"
+merge "2XOR_0/Y" "S" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "2AND_0/Y" "Cout" -138.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 -16 0 0 0 0
