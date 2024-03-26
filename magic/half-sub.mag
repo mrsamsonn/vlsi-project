@@ -1,0 +1,48 @@
+magic
+tech scmos
+timestamp 1711432038
+<< polycontact >>
+rect 57 50 61 54
+rect 78 50 82 54
+<< metal1 >>
+rect 0 81 2 85
+rect 112 81 116 85
+rect 132 81 135 85
+rect 88 57 92 65
+rect 88 53 100 57
+rect 88 37 92 53
+rect 130 46 139 50
+rect 180 37 184 65
+rect 0 25 2 29
+rect 112 25 116 29
+rect 132 25 135 29
+rect 78 17 149 21
+rect 102 0 118 4
+<< m2contact >>
+rect 118 46 122 50
+rect 149 42 153 46
+rect 149 17 153 21
+rect 118 0 122 4
+<< metal2 >>
+rect 118 4 122 46
+rect 149 21 153 42
+use 2AND  2AND_0
+timestamp 1711430728
+transform 1 0 132 0 1 25
+box 2 0 52 60
+use 2XOR  2XOR_0
+timestamp 1711410620
+transform 1 0 18 0 1 25
+box -18 -25 96 60
+use INV  INV_0
+timestamp 1711404725
+transform 1 0 121 0 1 24
+box -5 1 11 61
+<< labels >>
+rlabel polycontact 59 52 59 52 1 A
+rlabel polycontact 80 52 80 52 1 B
+rlabel metal1 94 55 94 55 1 Diff
+rlabel metal1 182 48 182 48 7 Bout
+rlabel metal1 1 83 1 83 4 VDD
+rlabel metal1 1 27 1 27 3 VSS
+<< end >>

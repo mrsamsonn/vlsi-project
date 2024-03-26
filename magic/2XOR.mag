@@ -107,7 +107,7 @@ rect 35 -21 39 25
 rect 56 -4 60 25
 rect 80 -21 84 21
 rect 92 -12 96 8
-use INV  INV_1 ~/CMPE480/hw3
+use INV  INV_1
 timestamp 1711404725
 transform 1 0 -13 0 1 -1
 box -5 1 11 61

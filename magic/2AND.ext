@@ -1,4 +1,4 @@
-timestamp 1711063132
+timestamp 1711430728
 version 8.3
 tech scmos
 style HP0.5um(hpcmos14tb)from:N9AE
@@ -10,14 +10,12 @@ node "Y" 10 736.92 45 8 ndif 28 22 28 22 0 0 0 0 0 0 0 0 0 0 144 80 0 0 0 0
 node "INV" 61 2682.28 14 40 pdif 32 24 32 24 0 0 0 0 0 0 100 94 0 0 232 124 0 0 0 0
 node "B" 50 1648.9 17 21 pc 0 0 0 0 0 0 0 0 0 0 100 94 0 0 16 16 0 0 0 0
 node "A" 50 1648.9 7 21 pc 0 0 0 0 0 0 0 0 0 0 100 94 0 0 16 16 0 0 0 0
-node "VDD" 55 1406.88 4 40 pdc 48 48 92 70 0 0 0 0 0 0 0 0 0 0 296 156 0 0 0 0
-cap "VDD" "Y" 46.174
-cap "B" "A" 64.6867
-cap "VSS" "Y" 46.174
-cap "INV" "Y" 30.7827
-cap "VDD" "INV" 69.261
+node "VDD" 55 1957.68 4 40 pdc 48 48 92 70 0 0 0 0 0 0 0 0 0 0 392 204 0 0 0 0
+cap "A" "B" 64.6867
 cap "INV" "VSS" 115.435
+cap "Y" "VSS" 46.174
 cap "B" "INV" 233.681
+cap "INV" "Y" 30.7827
 fet nfet 43 8 44 9 8 12 "Gnd!" "INV" 4 0 "VSS" 4 0 "Y" 4 0
 fet nfet 22 8 23 9 8 12 "Gnd!" "B" 4 0 "a_14_8#" 4 0 "INV" 4 0
 fet nfet 12 8 13 9 8 12 "Gnd!" "A" 4 0 "VSS" 4 0 "a_14_8#" 4 0
