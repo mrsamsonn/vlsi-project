@@ -1,7 +1,7 @@
 ## vlsi-project
 Project: Register File + ALU
 
-![](https://progress-bar.dev/30/?title=Magic:&width=150)  ![](https://progress-bar.dev/100/?title=Logisim:&width=150)
+![](https://progress-bar.dev/38/?title=Magic:&width=150)  ![](https://progress-bar.dev/100/?title=Logisim:&width=150)
 
 **Milestone Checklist**
 - [x] Preliminary project cell layouts: defines full schematic hierarchy and functionality.
