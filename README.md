@@ -41,10 +41,10 @@ Project: Register File + ALU
   - [ ] magic: 1-bit MUX8
   - [ ] magic: 1-bit 3-to-8 Decoder
   - [ ] magic: 1-bit D Flip Flop
-  - [ ] magic: 1-bit full-Adder
+  - [x] magic: 1-bit full-Adder
   - [ ] magic: 1-bit full-Subtractor
   - [x] magic: 1-bit half-Adder
-  - [ ] magic: 1-bit half-Subtractor
+  - [x] magic: 1-bit half-Subtractor
   - [ ] magic: 4-bit AND2
   - [ ] magic: 4-bit OR2
   - [ ] magic: 4-bit NAND2
