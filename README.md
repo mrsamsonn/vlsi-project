@@ -17,7 +17,7 @@ Project: Register File + ALU
   - [x] Please include .cmd files to demonstrate that the layouts simulate proerly
 - [x] complete Logisim/LogicWorks schematic (Canvas command)
 - [x] .cmd test files for IRSIM (turnin command)
-- [ ] partially complete set of Magic layouts for standard cells (these should only be submitted if DRC correct) (turnin command)
+- [x] partially complete set of Magic layouts for standard cells (these should only be submitted if DRC correct) (turnin command)
 ---
 **Magic Hierarchy Development [Layer0 - Layer4]**
 
