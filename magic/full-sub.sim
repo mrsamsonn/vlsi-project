@@ -1,0 +1,168 @@
+| units: 30 tech: scmos format: MIT
+p 2or_0/B 2or_0/a_6_39# 2or_0/INV 2 4 402 73
+p 2or_0/A VDD 2or_0/a_6_39# 2 4 380 73
+n 2or_0/B 2or_0/INV VSS 2 4 402 34
+p 2or_0/INV VDD Bout 2 4 420 73
+n 2or_0/A VSS 2or_0/INV 2 4 380 34
+n 2or_0/INV VSS Bout 2 4 420 34
+p half-sub-2_0/B VDD half-sub-2_0/2XOR_0/Bbar 2 8 193 68
+n half-sub-2_0/B VSS half-sub-2_0/2XOR_0/Bbar 2 4 193 33
+p A VDD half-sub-2_0/2XOR_0/Abar 2 8 289 68
+n A VSS half-sub-2_0/2XOR_0/Abar 2 4 289 33
+n half-sub-2_0/2XOR_0/Abar half-sub-2_0/2XOR_0/a_8_8# VSS 2 4 224 33
+n A VSS half-sub-2_0/2XOR_0/a_45_8# 2 4 247 33
+p A Diff half-sub-2_0/2XOR_0/a_0_40# 2 4 247 65
+p half-sub-2_0/B half-sub-2_0/2XOR_0/a_0_40# Diff 2 4 268 65
+n half-sub-2_0/B half-sub-2_0/2XOR_0/a_45_8# Diff 2 4 268 33
+p half-sub-2_0/2XOR_0/Bbar half-sub-2_0/2XOR_0/a_0_40# VDD 2 4 210 65
+n half-sub-2_0/2XOR_0/Bbar Diff half-sub-2_0/2XOR_0/a_8_8# 2 4 210 33
+p half-sub-2_0/2XOR_0/Abar VDD half-sub-2_0/2XOR_0/a_0_40# 2 4 224 65
+n half-sub-2_0/2AND_0/INV VSS 2or_0/A 2 4 361 33
+p half-sub-2_0/2AND_0/INV VDD 2or_0/A 2 4 361 65
+n A half-sub-2_0/2AND_0/a_14_8# half-sub-2_0/2AND_0/INV 2 4 340 33
+n half-sub-2_0/INV_0/Y VSS half-sub-2_0/2AND_0/a_14_8# 2 4 330 33
+p half-sub-2_0/INV_0/Y VDD half-sub-2_0/2AND_0/INV 2 4 330 65
+p A half-sub-2_0/2AND_0/INV VDD 2 4 340 65
+p half-sub-2_0/B VDD half-sub-2_0/INV_0/Y 2 8 309 68
+n half-sub-2_0/B VSS half-sub-2_0/INV_0/Y 2 4 309 33
+p Bin VDD half-sub_0/2XOR_0/Bbar 2 8 7 68
+n Bin VSS half-sub_0/2XOR_0/Bbar 2 4 7 33
+p B VDD half-sub_0/2XOR_0/Abar 2 8 103 68
+n B VSS half-sub_0/2XOR_0/Abar 2 4 103 33
+n half-sub_0/2XOR_0/Abar half-sub_0/2XOR_0/a_8_8# VSS 2 4 38 33
+n B VSS half-sub_0/2XOR_0/a_45_8# 2 4 61 33
+p B half-sub-2_0/B half-sub_0/2XOR_0/a_0_40# 2 4 61 65
+p Bin half-sub_0/2XOR_0/a_0_40# half-sub-2_0/B 2 4 82 65
+n Bin half-sub_0/2XOR_0/a_45_8# half-sub-2_0/B 2 4 82 33
+p half-sub_0/2XOR_0/Bbar half-sub_0/2XOR_0/a_0_40# VDD 2 4 24 65
+n half-sub_0/2XOR_0/Bbar half-sub-2_0/B half-sub_0/2XOR_0/a_8_8# 2 4 24 33
+p half-sub_0/2XOR_0/Abar VDD half-sub_0/2XOR_0/a_0_40# 2 4 38 65
+n half-sub_0/2AND_0/INV VSS 2or_0/B 2 4 175 33
+p half-sub_0/2AND_0/INV VDD 2or_0/B 2 4 175 65
+n Bin half-sub_0/2AND_0/a_14_8# half-sub_0/2AND_0/INV 2 4 154 33
+n half-sub_0/INV_0/Y VSS half-sub_0/2AND_0/a_14_8# 2 4 144 33
+p half-sub_0/INV_0/Y VDD half-sub_0/2AND_0/INV 2 4 144 65
+p Bin half-sub_0/2AND_0/INV VDD 2 4 154 65
+p B VDD half-sub_0/INV_0/Y 2 8 123 68
+n B VSS half-sub_0/INV_0/Y 2 4 123 33
+C VSS Bin 2.43
+C half-sub-2_0/B VSS 2.31
+C half-sub-2_0/B VDD 2.62
+C half-sub_0/INV_0/Y GND 2.64
+R half-sub_0/INV_0/Y 58
+= half-sub_0/INV_0/Y half-sub_0/2AND_0/A
+= half-sub_0/INV_0/Y half-sub_0/m1_130_46#
+C 2or_0/B GND 8.53
+R 2or_0/B 76
+= 2or_0/B half-sub_0/Bout
+= 2or_0/B m1_180_61#
+= 2or_0/B half-sub_0/2AND_0/Y
+C half-sub_0/2AND_0/INV GND 2.68
+R half-sub_0/2AND_0/INV 61
+R half-sub_0/2XOR_0/a_45_8# 13
+R half-sub_0/2XOR_0/a_0_40# 32
+C half-sub_0/2XOR_0/Abar GND 5.04
+R half-sub_0/2XOR_0/Abar 61
+= half-sub_0/2XOR_0/Abar half-sub_0/2XOR_0/INV_2/Y
+C B GND 5.92
+R B 128
+= B half-sub_0/A
+= B half-sub_0/INV_0/A
+= B half-sub_0/m1_102_0#
+= B half-sub_0/2XOR_0/A
+= B half-sub_0/2XOR_0/INV_2/A
+C half-sub_0/2XOR_0/Bbar GND 2.52
+R half-sub_0/2XOR_0/Bbar 58
+= half-sub_0/2XOR_0/Bbar half-sub_0/2XOR_0/INV_1/Y
+C Bin GND 9.29
+R Bin 175
+= Bin half-sub_0/B
+= Bin half-sub_0/2AND_0/B
+= Bin half-sub_0/m1_78_17#
+= Bin half-sub_0/2XOR_0/B
+= Bin half-sub_0/2XOR_0/INV_1/A
+C half-sub-2_0/INV_0/Y GND 2.64
+R half-sub-2_0/INV_0/Y 58
+= half-sub-2_0/INV_0/Y half-sub-2_0/2AND_0/A
+= half-sub-2_0/INV_0/Y half-sub-2_0/m1_130_46#
+C 2or_0/A GND 2.82
+R 2or_0/A 71
+= 2or_0/A m1_370_41#
+= 2or_0/A half-sub-2_0/Bout
+= 2or_0/A half-sub-2_0/2AND_0/Y
+C half-sub-2_0/2AND_0/INV GND 2.68
+R half-sub-2_0/2AND_0/INV 61
+R half-sub-2_0/2XOR_0/a_45_8# 13
+C Diff GND 3.29
+R Diff 37
+= Diff half-sub-2_0/Diff
+= Diff half-sub-2_0/2XOR_0/Y
+R half-sub-2_0/2XOR_0/a_0_40# 32
+C VSS GND 10.93
+R VSS 326
+= VSS 2or_0/VSS
+= VSS m1_368_25#
+= VSS half-sub_0/VSS
+= VSS half-sub_0/2AND_0/VSS
+= VSS half-sub_0/INV_0/VSS
+= VSS half-sub_0/m1_132_25#
+= VSS half-sub_0/m1_112_25#
+= VSS half-sub_0/2XOR_0/VSS
+= VSS half-sub_0/2XOR_0/INV_1/VSS
+= VSS half-sub_0/2XOR_0/INV_2/VSS
+= VSS half-sub-2_0/VSS
+= VSS m1_183_25#
+= VSS half-sub-2_0/2AND_0/VSS
+= VSS half-sub-2_0/INV_0/VSS
+= VSS half-sub-2_0/m1_132_25#
+= VSS half-sub-2_0/m1_112_25#
+= VSS half-sub-2_0/2XOR_0/VSS
+= VSS half-sub-2_0/2XOR_0/INV_1/VSS
+= VSS half-sub-2_0/2XOR_0/INV_2/VSS
+C half-sub-2_0/2XOR_0/Abar GND 5.04
+R half-sub-2_0/2XOR_0/Abar 61
+= half-sub-2_0/2XOR_0/Abar half-sub-2_0/2XOR_0/INV_2/Y
+C A GND 6.58
+R A 120
+= A half-sub-2_0/A
+= A half-sub-2_0/2AND_0/B
+= A half-sub-2_0/m1_102_0#
+= A half-sub-2_0/2XOR_0/A
+= A half-sub-2_0/2XOR_0/INV_2/A
+C VDD GND 12.73
+R VDD 342
+= VDD 2or_0/VDD
+= VDD m1_369_81#
+= VDD half-sub_0/VDD
+= VDD half-sub_0/2AND_0/VDD
+= VDD half-sub_0/INV_0/VDD
+= VDD half-sub_0/m1_132_81#
+= VDD half-sub_0/m1_112_81#
+= VDD half-sub_0/2XOR_0/VDD
+= VDD half-sub_0/2XOR_0/INV_1/VDD
+= VDD half-sub_0/2XOR_0/INV_2/VDD
+= VDD half-sub-2_0/VDD
+= VDD m1_182_81#
+= VDD half-sub-2_0/2AND_0/VDD
+= VDD half-sub-2_0/INV_0/VDD
+= VDD half-sub-2_0/m1_132_81#
+= VDD half-sub-2_0/m1_112_81#
+= VDD half-sub-2_0/2XOR_0/VDD
+= VDD half-sub-2_0/2XOR_0/INV_1/VDD
+= VDD half-sub-2_0/2XOR_0/INV_2/VDD
+C half-sub-2_0/2XOR_0/Bbar GND 2.52
+R half-sub-2_0/2XOR_0/Bbar 58
+= half-sub-2_0/2XOR_0/Bbar half-sub-2_0/2XOR_0/INV_1/Y
+C half-sub-2_0/B GND 16.44
+R half-sub-2_0/B 226
+= half-sub-2_0/B half-sub_0/Diff
+= half-sub-2_0/B m1_88_61#
+= half-sub-2_0/B half-sub_0/2XOR_0/Y
+= half-sub-2_0/B half-sub-2_0/INV_0/A
+= half-sub-2_0/B half-sub-2_0/m1_78_17#
+= half-sub-2_0/B half-sub-2_0/2XOR_0/B
+= half-sub-2_0/B half-sub-2_0/2XOR_0/INV_1/A
+= Bout 2or_0/Y
+R 2or_0/a_6_39# 12
+C 2or_0/INV GND 3.26
+R 2or_0/INV 79

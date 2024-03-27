@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1711410620
+timestamp 1711519290
 << ntransistor >>
 rect 6 8 8 12
 rect 20 8 22 12
@@ -117,12 +117,12 @@ transform 1 0 83 0 1 -1
 box -5 1 11 61
 << labels >>
 rlabel nsubstratencontact 14 58 14 58 5 VDD
-rlabel polycontact 4 27 4 27 3 A
-rlabel polycontact 18 27 18 27 1 B
 rlabel metal1 -17 58 -17 58 1 VDD
 rlabel metal1 -17 2 -17 2 1 VSS
 rlabel psubstratepcontact 36 2 36 2 1 VSS
-rlabel polycontact 41 27 41 27 1 B
-rlabel polycontact 62 27 62 27 1 A
 rlabel metal1 80 30 80 30 1 Y
+rlabel polycontact 41 27 41 27 1 A
+rlabel polycontact 62 27 62 27 1 B
+rlabel polycontact 18 27 18 27 1 Abar
+rlabel polycontact 4 27 4 27 1 Bbar
 << end >>

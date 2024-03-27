@@ -1,4 +1,4 @@
-timestamp 1711410620
+timestamp 1711519290
 version 8.3
 tech scmos
 style HP0.5um(hpcmos14tb)from:N9AE
@@ -13,55 +13,55 @@ node "VSS" 19 1930.32 22 8 ndif 84 50 16 16 0 0 0 0 0 0 0 0 0 0 352 184 0 0 0 0
 node "a_8_8#" 8 0 8 8 ndif 48 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "Y" 37 3308.58 0 8 ndc 56 44 68 50 0 0 0 0 0 0 0 0 0 0 664 340 0 0 0 0
 node "a_0_40#" 32 1792.62 0 40 pdc 0 0 132 90 0 0 0 0 0 0 0 0 0 0 360 188 0 0 0 0
-node "A" 53 4077.86 60 25 pc 0 0 0 0 0 0 0 0 0 0 96 92 0 0 352 200 280 156 0 0
-node "B" 53 3662.84 39 25 pc 0 0 0 0 0 0 0 0 0 0 96 92 0 0 244 146 416 224 0 0
-node "B" 53 4282.06 16 25 pc 0 0 0 0 0 0 0 0 0 0 96 92 0 0 384 216 292 162 0 0
-node "A" 50 1733.51 2 25 pc 0 0 0 0 0 0 0 0 0 0 96 92 0 0 40 28 0 0 0 0
+node "B" 53 4077.86 60 25 pc 0 0 0 0 0 0 0 0 0 0 96 92 0 0 352 200 280 156 0 0
+node "A" 53 3662.84 39 25 pc 0 0 0 0 0 0 0 0 0 0 96 92 0 0 244 146 416 224 0 0
+node "Abar" 53 4282.06 16 25 pc 0 0 0 0 0 0 0 0 0 0 96 92 0 0 384 216 292 162 0 0
+node "Bbar" 50 1733.51 2 25 pc 0 0 0 0 0 0 0 0 0 0 96 92 0 0 40 28 0 0 0 0
 node "VDD" 11 2159.82 8 40 pdif 16 16 48 32 0 0 0 0 0 0 0 0 0 0 392 204 0 0 0 0
-cap "B" "Y" 364.064
-cap "B" "A" 757.03
-cap "B" "a_8_8#" 39.168
-cap "A" "VSS" 177.43
-cap "a_0_40#" "Y" 277.044
+cap "Abar" "A" 784.511
+cap "A" "B" 156.768
+cap "Abar" "a_0_40#" 268.861
+cap "Abar" "Y" 364.064
+cap "Bbar" "Abar" 30.7827
+cap "B" "Y" 663.708
 cap "VDD" "a_0_40#" 623.349
-cap "B" "VSS" 156.768
-cap "B" "Y" 694.491
-cap "A" "B" 30.7827
-cap "B" "A" 156.768
-cap "A" "Y" 663.708
-cap "A" "a_0_40#" 207.296
-cap "B" "VSS" 355.08
-cap "Y" "VSS" 207.783
-cap "B" "a_0_40#" 268.861
-cap "A" "Y" 188.826
-cap "A" "VSS" 1057.16
-cap "B" "B" 784.511
-cap "a_45_8#" "A" 39.168
-fet nfet 64 8 65 9 8 12 "Gnd!" "A" 4 0 "a_45_8#" 4 0 "Y" 4 0
-fet nfet 43 8 44 9 8 12 "Gnd!" "B" 4 0 "VSS" 4 0 "a_45_8#" 4 0
-fet nfet 20 8 21 9 8 12 "Gnd!" "B" 4 0 "a_8_8#" 4 0 "VSS" 4 0
-fet nfet 6 8 7 9 8 12 "Gnd!" "A" 4 0 "Y" 4 0 "a_8_8#" 4 0
-fet pfet 64 40 65 41 8 12 "Vdd!" "A" 4 0 "a_0_40#" 4 0 "Y" 4 0
-fet pfet 43 40 44 41 8 12 "Vdd!" "B" 4 0 "Y" 4 0 "a_0_40#" 4 0
-fet pfet 20 40 21 41 8 12 "Vdd!" "B" 4 0 "VDD" 4 0 "a_0_40#" 4 0
-fet pfet 6 40 7 41 8 12 "Vdd!" "A" 4 0 "a_0_40#" 4 0 "VDD" 4 0
+cap "VSS" "Abar" 156.768
+cap "VSS" "B" 1057.16
+cap "Abar" "a_8_8#" 39.168
+cap "A" "Y" 694.491
+cap "a_0_40#" "Y" 277.044
+cap "Bbar" "a_0_40#" 207.296
+cap "VSS" "A" 355.08
+cap "a_45_8#" "B" 39.168
+cap "Bbar" "Y" 188.826
+cap "VSS" "Y" 207.783
+cap "VSS" "B" 177.43
+cap "Abar" "B" 757.03
+fet nfet 64 8 65 9 8 12 "Gnd!" "B" 4 0 "a_45_8#" 4 0 "Y" 4 0
+fet nfet 43 8 44 9 8 12 "Gnd!" "A" 4 0 "VSS" 4 0 "a_45_8#" 4 0
+fet nfet 20 8 21 9 8 12 "Gnd!" "Abar" 4 0 "a_8_8#" 4 0 "VSS" 4 0
+fet nfet 6 8 7 9 8 12 "Gnd!" "Bbar" 4 0 "Y" 4 0 "a_8_8#" 4 0
+fet pfet 64 40 65 41 8 12 "Vdd!" "B" 4 0 "a_0_40#" 4 0 "Y" 4 0
+fet pfet 43 40 44 41 8 12 "Vdd!" "A" 4 0 "Y" 4 0 "a_0_40#" 4 0
+fet pfet 20 40 21 41 8 12 "Vdd!" "Abar" 4 0 "VDD" 4 0 "a_0_40#" 4 0
+fet pfet 6 40 7 41 8 12 "Vdd!" "Bbar" 4 0 "a_0_40#" 4 0 "VDD" 4 0
 cap "INV_1/A" "INV_2/VSS" 28.301
-cap "Y" "INV_1/Y" 138.522
-cap "Y" "INV_2/VDD" 7.69567
-cap "INV_2/A" "INV_2/VSS" 133.104
-cap "Y" "INV_2/VSS" 30.7827
-cap "a_0_40#" "INV_1/Y" 132.75
-cap "INV_2/A" "Y" 26.9348
 cap "INV_1/A" "INV_1/Y" 23.087
-cap "INV_2/A" "INV_2/VSS" 141.888
+cap "INV_2/A" "INV_2/VSS" 133.104
+cap "Y" "INV_2/A" 26.9348
+cap "a_0_40#" "INV_1/Y" 132.75
+cap "Y" "INV_2/VSS" 30.7827
+cap "Y" "INV_2/VDD" 7.69567
+cap "Y" "INV_1/Y" 138.522
+cap "INV_2/VSS" "INV_2/A" 141.888
+cap "INV_2/Y" "Y" 15.3913
+cap "INV_2/Y" "INV_2/A" 23.087
 cap "INV_2/VSS" "INV_2/Y" 103.896
-cap "INV_2/A" "INV_2/Y" 23.087
-cap "Y" "INV_2/Y" 15.3913
-merge "INV_1/Y" "INV_1/A" -207.072 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16 0 0 0 0
-merge "INV_1/A" "A"
-merge "INV_2/Y" "INV_2/A" -4005.07 0 0 0 0 0 0 0 0 0 0 -192 -184 0 0 -64 -64 -304 -168 0 0
-merge "INV_2/A" "B"
+merge "INV_1/A" "B" -159.912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "INV_2/Y" "Abar" -75.528 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
 merge "INV_1/VSS" "INV_2/VSS" -279.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24 -36 0 0 0 0
 merge "INV_2/VSS" "VSS"
 merge "INV_1/VDD" "INV_2/VDD" -325.08 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32 -40 0 0 0 0
 merge "INV_2/VDD" "VDD"
+merge "INV_2/A" "A" -2039.33 0 0 0 0 0 0 0 0 0 0 -96 -92 0 0 -32 -32 -152 -84 0 0
+merge "INV_1/Y" "Bbar" -47.16 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
