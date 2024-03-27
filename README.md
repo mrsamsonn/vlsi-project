@@ -1,7 +1,7 @@
 ## vlsi-project
 Project: Register File + ALU
 
-![](https://progress-bar.dev/47/?title=Magic:&width=150)  ![](https://progress-bar.dev/100/?title=Logisim:&width=150)
+![](https://progress-bar.dev/49/?title=Magic:&width=150)  ![](https://progress-bar.dev/100/?title=Logisim:&width=150)
 
 **Milestone Checklist**
 - [x] Preliminary project cell layouts: defines full schematic hierarchy and functionality.
@@ -56,8 +56,8 @@ Project: Register File + ALU
   - [ ] magic: 4-bit MUX8
   - [ ] magic: 4-bit Register
   - [ ] magic: 1-bit DFF with Enabler [merge MUX2 + DFF]
-  - [ ] magic: 4-bit Adder
-  - [ ] magic: 4-bit Subtractor
+  - [x] magic: 4-bit Adder
+  - [x] magic: 4-bit Subtractor
 
 </br> -- ** *Layer3: block-level* **
 
