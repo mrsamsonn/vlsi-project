@@ -1,7 +1,7 @@
 ## vlsi-project
 Project: Register File + ALU
 
-![](https://progress-bar.dev/46/?title=Magic:&width=150)  ![](https://progress-bar.dev/100/?title=Logisim:&width=150)
+![](https://progress-bar.dev/47/?title=Magic:&width=150)  ![](https://progress-bar.dev/100/?title=Logisim:&width=150)
 
 **Milestone Checklist**
 - [x] Preliminary project cell layouts: defines full schematic hierarchy and functionality.
@@ -42,7 +42,7 @@ Project: Register File + ALU
   - [ ] magic: 1-bit 3-to-8 Decoder
   - [ ] magic: 1-bit D Flip Flop
   - [x] magic: 1-bit full-Adder
-  - [ ] magic: 1-bit full-Subtractor
+  - [x] magic: 1-bit full-Subtractor
   - [x] magic: 1-bit half-Adder
   - [x] magic: 1-bit half-Subtractor
   - [x] magic: 4-bit AND2
