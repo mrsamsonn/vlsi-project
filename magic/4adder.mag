@@ -1,0 +1,59 @@
+magic
+tech scmos
+timestamp 1711477316
+<< metal1 >>
+rect -169 56 -161 60
+rect -70 28 -64 32
+rect 266 28 272 32
+rect 666 28 673 32
+rect 1066 28 1072 32
+rect 666 27 669 28
+rect 1066 27 1069 28
+rect 1193 23 1199 27
+rect -168 0 -160 4
+rect -156 -8 -152 -4
+rect 12 -8 16 -4
+rect 412 -8 417 -4
+rect 812 -8 816 -4
+rect -105 -25 -100 -21
+rect 63 -25 68 -21
+rect 463 -25 468 -21
+rect 863 -25 867 -21
+<< m2contact >>
+rect -4 12 0 16
+rect -4 -46 0 -42
+<< metal2 >>
+rect -4 -42 0 12
+use full  full_0
+timestamp 1711472411
+transform 1 0 0 0 1 0
+box -1 -46 400 60
+use full  full_1
+timestamp 1711472411
+transform 1 0 400 0 1 0
+box -1 -46 400 60
+use full  full_2
+timestamp 1711472411
+transform 1 0 800 0 1 0
+box -1 -46 400 60
+use half  half_0
+timestamp 1711470148
+transform 1 0 -146 0 1 0
+box -23 -25 148 60
+<< labels >>
+rlabel metal1 -166 58 -166 58 1 VDD
+rlabel metal1 -167 2 -167 2 1 VSS
+rlabel metal1 -154 -6 -154 -6 1 A0
+rlabel metal1 -102 -23 -102 -23 1 B0
+rlabel metal1 14 -6 14 -6 1 A1
+rlabel metal1 66 -23 66 -23 1 B1
+rlabel metal1 414 -6 414 -6 1 A2
+rlabel metal1 466 -23 466 -23 1 B2
+rlabel metal1 814 -6 814 -6 1 A3
+rlabel metal1 866 -23 866 -23 1 B3
+rlabel metal1 -65 30 -65 30 1 S0
+rlabel metal1 270 29 270 30 1 S1
+rlabel metal1 670 29 671 29 1 S2
+rlabel metal1 1070 30 1070 30 1 S3
+rlabel metal1 1198 25 1198 25 7 Cout
+<< end >>

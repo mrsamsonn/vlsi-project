@@ -1,0 +1,487 @@
+| units: 30 tech: scmos format: MIT
+p A0 VDD half_0/2XOR_0/INV_1/Y 2 8 -155 43
+n A0 VSS half_0/2XOR_0/INV_1/Y 2 4 -155 8
+p B0 VDD half_0/2XOR_0/INV_2/Y 2 8 -59 43
+n B0 VSS half_0/2XOR_0/INV_2/Y 2 4 -59 8
+n half_0/2XOR_0/INV_2/Y half_0/2XOR_0/a_8_8# VSS 2 4 -124 8
+n B0 VSS half_0/2XOR_0/a_45_8# 2 4 -101 8
+p B0 S0 half_0/2XOR_0/a_0_40# 2 4 -101 40
+p A0 half_0/2XOR_0/a_0_40# S0 2 4 -80 40
+n A0 half_0/2XOR_0/a_45_8# S0 2 4 -80 8
+p half_0/2XOR_0/INV_1/Y half_0/2XOR_0/a_0_40# VDD 2 4 -138 40
+n half_0/2XOR_0/INV_1/Y S0 half_0/2XOR_0/a_8_8# 2 4 -138 8
+p half_0/2XOR_0/INV_2/Y VDD half_0/2XOR_0/a_0_40# 2 4 -124 40
+n half_0/2AND_0/INV VSS full_0/Cin 2 4 -9 8
+p half_0/2AND_0/INV VDD full_0/Cin 2 4 -9 40
+n B0 half_0/2AND_0/a_14_8# half_0/2AND_0/INV 2 4 -30 8
+n A0 VSS half_0/2AND_0/a_14_8# 2 4 -40 8
+p A0 VDD half_0/2AND_0/INV 2 4 -40 40
+p B0 half_0/2AND_0/INV VDD 2 4 -30 40
+p full_0/2or_0/B full_0/2or_0/a_6_39# full_0/2or_0/INV 2 4 372 48
+p full_0/2or_0/A VDD full_0/2or_0/a_6_39# 2 4 350 48
+n full_0/2or_0/B full_0/2or_0/INV VSS 2 4 372 9
+p full_0/2or_0/INV VDD full_1/Cin 2 4 390 48
+n full_0/2or_0/A VSS full_0/2or_0/INV 2 4 350 9
+n full_0/2or_0/INV VSS full_1/Cin 2 4 390 9
+p A1 VDD full_0/half_0/2XOR_0/INV_1/Y 2 8 13 43
+n A1 VSS full_0/half_0/2XOR_0/INV_1/Y 2 4 13 8
+p B1 VDD full_0/half_0/2XOR_0/INV_2/Y 2 8 109 43
+n B1 VSS full_0/half_0/2XOR_0/INV_2/Y 2 4 109 8
+n full_0/half_0/2XOR_0/INV_2/Y full_0/half_0/2XOR_0/a_8_8# VSS 2 4 44 8
+n B1 VSS full_0/half_0/2XOR_0/a_45_8# 2 4 67 8
+p B1 full_0/half_1/B full_0/half_0/2XOR_0/a_0_40# 2 4 67 40
+p A1 full_0/half_0/2XOR_0/a_0_40# full_0/half_1/B 2 4 88 40
+n A1 full_0/half_0/2XOR_0/a_45_8# full_0/half_1/B 2 4 88 8
+p full_0/half_0/2XOR_0/INV_1/Y full_0/half_0/2XOR_0/a_0_40# VDD 2 4 30 40
+n full_0/half_0/2XOR_0/INV_1/Y full_0/half_1/B full_0/half_0/2XOR_0/a_8_8# 2 4 30 8
+p full_0/half_0/2XOR_0/INV_2/Y VDD full_0/half_0/2XOR_0/a_0_40# 2 4 44 40
+n full_0/half_0/2AND_0/INV VSS full_0/2or_0/B 2 4 159 8
+p full_0/half_0/2AND_0/INV VDD full_0/2or_0/B 2 4 159 40
+n B1 full_0/half_0/2AND_0/a_14_8# full_0/half_0/2AND_0/INV 2 4 138 8
+n A1 VSS full_0/half_0/2AND_0/a_14_8# 2 4 128 8
+p A1 VDD full_0/half_0/2AND_0/INV 2 4 128 40
+p B1 full_0/half_0/2AND_0/INV VDD 2 4 138 40
+p full_0/Cin VDD full_0/half_1/2XOR_0/INV_1/Y 2 8 181 43
+n full_0/Cin VSS full_0/half_1/2XOR_0/INV_1/Y 2 4 181 8
+p full_0/half_1/B VDD full_0/half_1/2XOR_0/INV_2/Y 2 8 277 43
+n full_0/half_1/B VSS full_0/half_1/2XOR_0/INV_2/Y 2 4 277 8
+n full_0/half_1/2XOR_0/INV_2/Y full_0/half_1/2XOR_0/a_8_8# VSS 2 4 212 8
+n full_0/half_1/B VSS full_0/half_1/2XOR_0/a_45_8# 2 4 235 8
+p full_0/half_1/B S1 full_0/half_1/2XOR_0/a_0_40# 2 4 235 40
+p full_0/Cin full_0/half_1/2XOR_0/a_0_40# S1 2 4 256 40
+n full_0/Cin full_0/half_1/2XOR_0/a_45_8# S1 2 4 256 8
+p full_0/half_1/2XOR_0/INV_1/Y full_0/half_1/2XOR_0/a_0_40# VDD 2 4 198 40
+n full_0/half_1/2XOR_0/INV_1/Y S1 full_0/half_1/2XOR_0/a_8_8# 2 4 198 8
+p full_0/half_1/2XOR_0/INV_2/Y VDD full_0/half_1/2XOR_0/a_0_40# 2 4 212 40
+n full_0/half_1/2AND_0/INV VSS full_0/2or_0/A 2 4 327 8
+p full_0/half_1/2AND_0/INV VDD full_0/2or_0/A 2 4 327 40
+n full_0/half_1/B full_0/half_1/2AND_0/a_14_8# full_0/half_1/2AND_0/INV 2 4 306 8
+n full_0/Cin VSS full_0/half_1/2AND_0/a_14_8# 2 4 296 8
+p full_0/Cin VDD full_0/half_1/2AND_0/INV 2 4 296 40
+p full_0/half_1/B full_0/half_1/2AND_0/INV VDD 2 4 306 40
+p full_2/2or_0/B full_2/2or_0/a_6_39# full_2/2or_0/INV 2 4 1172 48
+p full_2/2or_0/A VDD full_2/2or_0/a_6_39# 2 4 1150 48
+n full_2/2or_0/B full_2/2or_0/INV VSS 2 4 1172 9
+p full_2/2or_0/INV VDD Cout 2 4 1190 48
+n full_2/2or_0/A VSS full_2/2or_0/INV 2 4 1150 9
+n full_2/2or_0/INV VSS Cout 2 4 1190 9
+p A3 VDD full_2/half_0/2XOR_0/INV_1/Y 2 8 813 43
+n A3 VSS full_2/half_0/2XOR_0/INV_1/Y 2 4 813 8
+p B3 VDD full_2/half_0/2XOR_0/INV_2/Y 2 8 909 43
+n B3 VSS full_2/half_0/2XOR_0/INV_2/Y 2 4 909 8
+n full_2/half_0/2XOR_0/INV_2/Y full_2/half_0/2XOR_0/a_8_8# VSS 2 4 844 8
+n B3 VSS full_2/half_0/2XOR_0/a_45_8# 2 4 867 8
+p B3 full_2/half_1/B full_2/half_0/2XOR_0/a_0_40# 2 4 867 40
+p A3 full_2/half_0/2XOR_0/a_0_40# full_2/half_1/B 2 4 888 40
+n A3 full_2/half_0/2XOR_0/a_45_8# full_2/half_1/B 2 4 888 8
+p full_2/half_0/2XOR_0/INV_1/Y full_2/half_0/2XOR_0/a_0_40# VDD 2 4 830 40
+n full_2/half_0/2XOR_0/INV_1/Y full_2/half_1/B full_2/half_0/2XOR_0/a_8_8# 2 4 830 8
+p full_2/half_0/2XOR_0/INV_2/Y VDD full_2/half_0/2XOR_0/a_0_40# 2 4 844 40
+n full_2/half_0/2AND_0/INV VSS full_2/2or_0/B 2 4 959 8
+p full_2/half_0/2AND_0/INV VDD full_2/2or_0/B 2 4 959 40
+n B3 full_2/half_0/2AND_0/a_14_8# full_2/half_0/2AND_0/INV 2 4 938 8
+n A3 VSS full_2/half_0/2AND_0/a_14_8# 2 4 928 8
+p A3 VDD full_2/half_0/2AND_0/INV 2 4 928 40
+p B3 full_2/half_0/2AND_0/INV VDD 2 4 938 40
+p full_2/Cin VDD full_2/half_1/2XOR_0/INV_1/Y 2 8 981 43
+n full_2/Cin VSS full_2/half_1/2XOR_0/INV_1/Y 2 4 981 8
+p full_2/half_1/B VDD full_2/half_1/2XOR_0/INV_2/Y 2 8 1077 43
+n full_2/half_1/B VSS full_2/half_1/2XOR_0/INV_2/Y 2 4 1077 8
+n full_2/half_1/2XOR_0/INV_2/Y full_2/half_1/2XOR_0/a_8_8# VSS 2 4 1012 8
+n full_2/half_1/B VSS full_2/half_1/2XOR_0/a_45_8# 2 4 1035 8
+p full_2/half_1/B S3 full_2/half_1/2XOR_0/a_0_40# 2 4 1035 40
+p full_2/Cin full_2/half_1/2XOR_0/a_0_40# S3 2 4 1056 40
+n full_2/Cin full_2/half_1/2XOR_0/a_45_8# S3 2 4 1056 8
+p full_2/half_1/2XOR_0/INV_1/Y full_2/half_1/2XOR_0/a_0_40# VDD 2 4 998 40
+n full_2/half_1/2XOR_0/INV_1/Y S3 full_2/half_1/2XOR_0/a_8_8# 2 4 998 8
+p full_2/half_1/2XOR_0/INV_2/Y VDD full_2/half_1/2XOR_0/a_0_40# 2 4 1012 40
+n full_2/half_1/2AND_0/INV VSS full_2/2or_0/A 2 4 1127 8
+p full_2/half_1/2AND_0/INV VDD full_2/2or_0/A 2 4 1127 40
+n full_2/half_1/B full_2/half_1/2AND_0/a_14_8# full_2/half_1/2AND_0/INV 2 4 1106 8
+n full_2/Cin VSS full_2/half_1/2AND_0/a_14_8# 2 4 1096 8
+p full_2/Cin VDD full_2/half_1/2AND_0/INV 2 4 1096 40
+p full_2/half_1/B full_2/half_1/2AND_0/INV VDD 2 4 1106 40
+p full_1/2or_0/B full_1/2or_0/a_6_39# full_1/2or_0/INV 2 4 772 48
+p full_1/2or_0/A VDD full_1/2or_0/a_6_39# 2 4 750 48
+n full_1/2or_0/B full_1/2or_0/INV VSS 2 4 772 9
+p full_1/2or_0/INV VDD full_2/Cin 2 4 790 48
+n full_1/2or_0/A VSS full_1/2or_0/INV 2 4 750 9
+n full_1/2or_0/INV VSS full_2/Cin 2 4 790 9
+p A2 VDD full_1/half_0/2XOR_0/INV_1/Y 2 8 413 43
+n A2 VSS full_1/half_0/2XOR_0/INV_1/Y 2 4 413 8
+p B2 VDD full_1/half_0/2XOR_0/INV_2/Y 2 8 509 43
+n B2 VSS full_1/half_0/2XOR_0/INV_2/Y 2 4 509 8
+n full_1/half_0/2XOR_0/INV_2/Y full_1/half_0/2XOR_0/a_8_8# VSS 2 4 444 8
+n B2 VSS full_1/half_0/2XOR_0/a_45_8# 2 4 467 8
+p B2 full_1/half_1/B full_1/half_0/2XOR_0/a_0_40# 2 4 467 40
+p A2 full_1/half_0/2XOR_0/a_0_40# full_1/half_1/B 2 4 488 40
+n A2 full_1/half_0/2XOR_0/a_45_8# full_1/half_1/B 2 4 488 8
+p full_1/half_0/2XOR_0/INV_1/Y full_1/half_0/2XOR_0/a_0_40# VDD 2 4 430 40
+n full_1/half_0/2XOR_0/INV_1/Y full_1/half_1/B full_1/half_0/2XOR_0/a_8_8# 2 4 430 8
+p full_1/half_0/2XOR_0/INV_2/Y VDD full_1/half_0/2XOR_0/a_0_40# 2 4 444 40
+n full_1/half_0/2AND_0/INV VSS full_1/2or_0/B 2 4 559 8
+p full_1/half_0/2AND_0/INV VDD full_1/2or_0/B 2 4 559 40
+n B2 full_1/half_0/2AND_0/a_14_8# full_1/half_0/2AND_0/INV 2 4 538 8
+n A2 VSS full_1/half_0/2AND_0/a_14_8# 2 4 528 8
+p A2 VDD full_1/half_0/2AND_0/INV 2 4 528 40
+p B2 full_1/half_0/2AND_0/INV VDD 2 4 538 40
+p full_1/Cin VDD full_1/half_1/2XOR_0/INV_1/Y 2 8 581 43
+n full_1/Cin VSS full_1/half_1/2XOR_0/INV_1/Y 2 4 581 8
+p full_1/half_1/B VDD full_1/half_1/2XOR_0/INV_2/Y 2 8 677 43
+n full_1/half_1/B VSS full_1/half_1/2XOR_0/INV_2/Y 2 4 677 8
+n full_1/half_1/2XOR_0/INV_2/Y full_1/half_1/2XOR_0/a_8_8# VSS 2 4 612 8
+n full_1/half_1/B VSS full_1/half_1/2XOR_0/a_45_8# 2 4 635 8
+p full_1/half_1/B S2 full_1/half_1/2XOR_0/a_0_40# 2 4 635 40
+p full_1/Cin full_1/half_1/2XOR_0/a_0_40# S2 2 4 656 40
+n full_1/Cin full_1/half_1/2XOR_0/a_45_8# S2 2 4 656 8
+p full_1/half_1/2XOR_0/INV_1/Y full_1/half_1/2XOR_0/a_0_40# VDD 2 4 598 40
+n full_1/half_1/2XOR_0/INV_1/Y S2 full_1/half_1/2XOR_0/a_8_8# 2 4 598 8
+p full_1/half_1/2XOR_0/INV_2/Y VDD full_1/half_1/2XOR_0/a_0_40# 2 4 612 40
+n full_1/half_1/2AND_0/INV VSS full_1/2or_0/A 2 4 727 8
+p full_1/half_1/2AND_0/INV VDD full_1/2or_0/A 2 4 727 40
+n full_1/half_1/B full_1/half_1/2AND_0/a_14_8# full_1/half_1/2AND_0/INV 2 4 706 8
+n full_1/Cin VSS full_1/half_1/2AND_0/a_14_8# 2 4 696 8
+p full_1/Cin VDD full_1/half_1/2AND_0/INV 2 4 696 40
+p full_1/half_1/B full_1/half_1/2AND_0/INV VDD 2 4 706 40
+C A2 VSS 2.13
+C full_0/Cin VSS 2.36
+C full_2/Cin VSS 2.39
+C A3 VSS 2.13
+C VSS full_1/Cin 2.39
+C A0 VSS 2.13
+C A1 VSS 2.13
+C full_1/2or_0/A GND 3.90
+R full_1/2or_0/A 74
+= full_1/2or_0/A full_1/half_1/Cout
+= full_1/2or_0/A full_1/m1_332_n24#
+= full_1/2or_0/A full_1/half_1/2AND_0/Y
+C full_1/half_1/2AND_0/INV GND 2.68
+R full_1/half_1/2AND_0/INV 61
+R full_1/half_1/2XOR_0/a_45_8# 13
+C S2 GND 3.29
+R S2 37
+= S2 full_1/Result
+= S2 full_1/half_1/S
+= S2 full_1/half_1/2XOR_0/Y
+R full_1/half_1/2XOR_0/a_0_40# 32
+C full_1/half_1/2XOR_0/INV_2/Y GND 5.13
+R full_1/half_1/2XOR_0/INV_2/Y 62
+= full_1/half_1/2XOR_0/INV_2/Y full_1/half_1/2XOR_0/a_16_25#
+C full_1/half_1/B GND 14.66
+R full_1/half_1/B 215
+= full_1/half_1/B full_1/half_0/S
+= full_1/half_1/B full_1/m1_94_n33#
+= full_1/half_1/B full_1/half_0/2XOR_0/Y
+= full_1/half_1/B full_1/half_1/2AND_0/B
+= full_1/half_1/B full_1/half_1/2XOR_0/B
+= full_1/half_1/B full_1/half_1/2XOR_0/INV_2/A
+C full_1/half_1/2XOR_0/INV_1/Y GND 2.52
+R full_1/half_1/2XOR_0/INV_1/Y 58
+= full_1/half_1/2XOR_0/INV_1/Y full_1/half_1/2XOR_0/a_2_25#
+C full_1/Cin GND 14.66
+R full_1/Cin 187
+= full_1/Cin full_0/Cout
+= full_1/Cin full_0/2or_0/Y
+= full_1/Cin full_0/m1_393_n46#
+= full_1/Cin full_1/m1_0_n46#
+= full_1/Cin full_1/half_1/A
+= full_1/Cin full_1/half_1/2AND_0/A
+= full_1/Cin full_1/half_1/2XOR_0/A
+= full_1/Cin full_1/half_1/2XOR_0/INV_1/A
+C full_1/2or_0/B GND 8.53
+R full_1/2or_0/B 76
+= full_1/2or_0/B full_1/half_0/Cout
+= full_1/2or_0/B full_1/m1_164_n38#
+= full_1/2or_0/B full_1/half_0/2AND_0/Y
+C full_1/half_0/2AND_0/INV GND 2.68
+R full_1/half_0/2AND_0/INV 61
+R full_1/half_0/2XOR_0/a_45_8# 13
+R full_1/half_0/2XOR_0/a_0_40# 32
+C VSS GND 34.39
+R VSS 992
+= VSS half_0/VSS
+= VSS half_0/2AND_0/VSS
+= VSS half_0/2XOR_0/VSS
+= VSS half_0/2XOR_0/INV_1/VSS
+= VSS half_0/2XOR_0/INV_2/VSS
+= VSS full_2/VSS
+= VSS full_2/2or_0/VSS
+= VSS full_2/half_1/VSS
+= VSS full_2/half_1/2AND_0/VSS
+= VSS full_2/half_1/2XOR_0/VSS
+= VSS full_2/half_1/2XOR_0/INV_1/VSS
+= VSS full_2/half_1/2XOR_0/INV_2/VSS
+= VSS full_2/half_0/VSS
+= VSS full_2/half_0/2AND_0/VSS
+= VSS full_2/half_0/2XOR_0/VSS
+= VSS full_2/half_0/2XOR_0/INV_1/VSS
+= VSS full_2/half_0/2XOR_0/INV_2/VSS
+= VSS full_1/VSS
+= VSS full_0/VSS
+= VSS full_0/2or_0/VSS
+= VSS full_0/half_1/VSS
+= VSS full_0/half_1/2AND_0/VSS
+= VSS full_0/half_1/2XOR_0/VSS
+= VSS full_0/half_1/2XOR_0/INV_1/VSS
+= VSS full_0/half_1/2XOR_0/INV_2/VSS
+= VSS full_0/half_0/VSS
+= VSS full_0/half_0/2AND_0/VSS
+= VSS full_0/half_0/2XOR_0/VSS
+= VSS full_0/half_0/2XOR_0/INV_1/VSS
+= VSS full_0/half_0/2XOR_0/INV_2/VSS
+= VSS full_1/2or_0/VSS
+= VSS full_1/half_1/VSS
+= VSS full_1/half_1/2AND_0/VSS
+= VSS full_1/half_1/2XOR_0/VSS
+= VSS full_1/half_1/2XOR_0/INV_1/VSS
+= VSS full_1/half_1/2XOR_0/INV_2/VSS
+= VSS full_1/half_0/VSS
+= VSS full_1/half_0/2AND_0/VSS
+= VSS full_1/half_0/2XOR_0/VSS
+= VSS full_1/half_0/2XOR_0/INV_1/VSS
+= VSS full_1/half_0/2XOR_0/INV_2/VSS
+C full_1/half_0/2XOR_0/INV_2/Y GND 5.13
+R full_1/half_0/2XOR_0/INV_2/Y 62
+= full_1/half_0/2XOR_0/INV_2/Y full_1/m1_116_n16#
+= full_1/half_0/2XOR_0/INV_2/Y full_1/half_0/2XOR_0/a_16_25#
+C B2 GND 7.92
+R B2 174
+= B2 full_1/B
+= B2 full_1/half_0/B
+= B2 full_1/half_0/2AND_0/B
+= B2 full_1/half_0/2XOR_0/B
+= B2 full_1/half_0/2XOR_0/INV_2/A
+C VDD GND 40.47
+R VDD 1054
+= VDD half_0/VDD
+= VDD half_0/2AND_0/VDD
+= VDD half_0/m1_n23_56#
+= VDD half_0/2XOR_0/VDD
+= VDD half_0/2XOR_0/INV_1/VDD
+= VDD half_0/2XOR_0/INV_2/VDD
+= VDD full_2/VDD
+= VDD full_2/2or_0/VDD
+= VDD full_2/half_1/VDD
+= VDD full_2/half_1/2AND_0/VDD
+= VDD full_2/half_1/m1_n23_56#
+= VDD full_2/half_1/2XOR_0/VDD
+= VDD full_2/half_1/2XOR_0/INV_1/VDD
+= VDD full_2/half_1/2XOR_0/INV_2/VDD
+= VDD full_2/half_0/VDD
+= VDD full_2/half_0/2AND_0/VDD
+= VDD full_2/half_0/m1_n23_56#
+= VDD full_2/half_0/2XOR_0/VDD
+= VDD full_2/half_0/2XOR_0/INV_1/VDD
+= VDD full_2/half_0/2XOR_0/INV_2/VDD
+= VDD full_1/VDD
+= VDD full_0/VDD
+= VDD full_0/2or_0/VDD
+= VDD full_0/half_1/VDD
+= VDD full_0/half_1/2AND_0/VDD
+= VDD full_0/half_1/m1_n23_56#
+= VDD full_0/half_1/2XOR_0/VDD
+= VDD full_0/half_1/2XOR_0/INV_1/VDD
+= VDD full_0/half_1/2XOR_0/INV_2/VDD
+= VDD full_0/half_0/VDD
+= VDD full_0/half_0/2AND_0/VDD
+= VDD full_0/half_0/m1_n23_56#
+= VDD full_0/half_0/2XOR_0/VDD
+= VDD full_0/half_0/2XOR_0/INV_1/VDD
+= VDD full_0/half_0/2XOR_0/INV_2/VDD
+= VDD full_1/2or_0/VDD
+= VDD full_1/half_1/VDD
+= VDD full_1/half_1/2AND_0/VDD
+= VDD full_1/half_1/m1_n23_56#
+= VDD full_1/half_1/2XOR_0/VDD
+= VDD full_1/half_1/2XOR_0/INV_1/VDD
+= VDD full_1/half_1/2XOR_0/INV_2/VDD
+= VDD full_1/half_0/VDD
+= VDD full_1/half_0/2AND_0/VDD
+= VDD full_1/half_0/m1_n23_56#
+= VDD full_1/half_0/2XOR_0/VDD
+= VDD full_1/half_0/2XOR_0/INV_1/VDD
+= VDD full_1/half_0/2XOR_0/INV_2/VDD
+C full_1/half_0/2XOR_0/INV_1/Y GND 2.52
+R full_1/half_0/2XOR_0/INV_1/Y 58
+= full_1/half_0/2XOR_0/INV_1/Y full_1/half_0/2XOR_0/a_2_25#
+C A2 GND 8.60
+R A2 174
+= A2 full_1/A
+= A2 full_1/half_0/A
+= A2 full_1/half_0/2AND_0/A
+= A2 full_1/half_0/2XOR_0/A
+= A2 full_1/half_0/2XOR_0/INV_1/A
+R full_1/2or_0/a_6_39# 12
+C full_1/2or_0/INV GND 3.26
+R full_1/2or_0/INV 79
+= Cout full_2/Cout
+= Cout full_2/2or_0/Y
+= Cout full_2/m1_393_n46#
+C full_2/2or_0/A GND 3.90
+R full_2/2or_0/A 74
+= full_2/2or_0/A full_2/half_1/Cout
+= full_2/2or_0/A full_2/m1_332_n24#
+= full_2/2or_0/A full_2/half_1/2AND_0/Y
+C full_2/half_1/2AND_0/INV GND 2.68
+R full_2/half_1/2AND_0/INV 61
+R full_2/half_1/2XOR_0/a_45_8# 13
+C S3 GND 3.27
+R S3 37
+= S3 full_2/Result
+= S3 full_2/half_1/S
+= S3 full_2/half_1/2XOR_0/Y
+R full_2/half_1/2XOR_0/a_0_40# 32
+C full_2/half_1/2XOR_0/INV_2/Y GND 5.13
+R full_2/half_1/2XOR_0/INV_2/Y 62
+= full_2/half_1/2XOR_0/INV_2/Y full_2/half_1/2XOR_0/a_16_25#
+C full_2/half_1/B GND 14.66
+R full_2/half_1/B 215
+= full_2/half_1/B full_2/half_0/S
+= full_2/half_1/B full_2/m1_94_n33#
+= full_2/half_1/B full_2/half_0/2XOR_0/Y
+= full_2/half_1/B full_2/half_1/2AND_0/B
+= full_2/half_1/B full_2/half_1/2XOR_0/B
+= full_2/half_1/B full_2/half_1/2XOR_0/INV_2/A
+C full_2/half_1/2XOR_0/INV_1/Y GND 2.52
+R full_2/half_1/2XOR_0/INV_1/Y 58
+= full_2/half_1/2XOR_0/INV_1/Y full_2/half_1/2XOR_0/a_2_25#
+C full_2/Cin GND 14.66
+R full_2/Cin 187
+= full_2/Cin full_1/Cout
+= full_2/Cin full_1/2or_0/Y
+= full_2/Cin full_1/m1_393_n46#
+= full_2/Cin full_2/m1_0_n46#
+= full_2/Cin full_2/half_1/A
+= full_2/Cin full_2/half_1/2AND_0/A
+= full_2/Cin full_2/half_1/2XOR_0/A
+= full_2/Cin full_2/half_1/2XOR_0/INV_1/A
+C full_2/2or_0/B GND 8.53
+R full_2/2or_0/B 76
+= full_2/2or_0/B full_2/half_0/Cout
+= full_2/2or_0/B full_2/m1_164_n38#
+= full_2/2or_0/B full_2/half_0/2AND_0/Y
+C full_2/half_0/2AND_0/INV GND 2.68
+R full_2/half_0/2AND_0/INV 61
+R full_2/half_0/2XOR_0/a_45_8# 13
+R full_2/half_0/2XOR_0/a_0_40# 32
+C full_2/half_0/2XOR_0/INV_2/Y GND 5.13
+R full_2/half_0/2XOR_0/INV_2/Y 62
+= full_2/half_0/2XOR_0/INV_2/Y full_2/m1_116_n16#
+= full_2/half_0/2XOR_0/INV_2/Y full_2/half_0/2XOR_0/a_16_25#
+C B3 GND 7.92
+R B3 174
+= B3 full_2/B
+= B3 full_2/half_0/B
+= B3 full_2/half_0/2AND_0/B
+= B3 full_2/half_0/2XOR_0/B
+= B3 full_2/half_0/2XOR_0/INV_2/A
+C full_2/half_0/2XOR_0/INV_1/Y GND 2.52
+R full_2/half_0/2XOR_0/INV_1/Y 58
+= full_2/half_0/2XOR_0/INV_1/Y full_2/half_0/2XOR_0/a_2_25#
+C A3 GND 8.60
+R A3 174
+= A3 full_2/A
+= A3 full_2/half_0/A
+= A3 full_2/half_0/2AND_0/A
+= A3 full_2/half_0/2XOR_0/A
+= A3 full_2/half_0/2XOR_0/INV_1/A
+R full_2/2or_0/a_6_39# 12
+C full_2/2or_0/INV GND 3.26
+R full_2/2or_0/INV 79
+C full_0/2or_0/A GND 3.90
+R full_0/2or_0/A 74
+= full_0/2or_0/A full_0/half_1/Cout
+= full_0/2or_0/A full_0/m1_332_n24#
+= full_0/2or_0/A full_0/half_1/2AND_0/Y
+C full_0/half_1/2AND_0/INV GND 2.68
+R full_0/half_1/2AND_0/INV 61
+R full_0/half_1/2XOR_0/a_45_8# 13
+C S1 GND 3.26
+R S1 37
+= S1 full_0/Result
+= S1 full_0/half_1/S
+= S1 full_0/half_1/2XOR_0/Y
+R full_0/half_1/2XOR_0/a_0_40# 32
+C full_0/half_1/2XOR_0/INV_2/Y GND 5.13
+R full_0/half_1/2XOR_0/INV_2/Y 62
+= full_0/half_1/2XOR_0/INV_2/Y full_0/half_1/2XOR_0/a_16_25#
+C full_0/half_1/B GND 14.66
+R full_0/half_1/B 215
+= full_0/half_1/B full_0/half_0/S
+= full_0/half_1/B full_0/m1_94_n33#
+= full_0/half_1/B full_0/half_0/2XOR_0/Y
+= full_0/half_1/B full_0/half_1/2AND_0/B
+= full_0/half_1/B full_0/half_1/2XOR_0/B
+= full_0/half_1/B full_0/half_1/2XOR_0/INV_2/A
+C full_0/half_1/2XOR_0/INV_1/Y GND 2.52
+R full_0/half_1/2XOR_0/INV_1/Y 58
+= full_0/half_1/2XOR_0/INV_1/Y full_0/half_1/2XOR_0/a_2_25#
+C full_0/Cin GND 14.41
+R full_0/Cin 189
+= full_0/Cin half_0/Cout
+= full_0/Cin m1_n4_n46#
+= full_0/Cin half_0/2AND_0/Y
+= full_0/Cin full_0/m1_0_n46#
+= full_0/Cin full_0/half_1/A
+= full_0/Cin full_0/half_1/2AND_0/A
+= full_0/Cin full_0/half_1/2XOR_0/A
+= full_0/Cin full_0/half_1/2XOR_0/INV_1/A
+C full_0/2or_0/B GND 8.53
+R full_0/2or_0/B 76
+= full_0/2or_0/B full_0/half_0/Cout
+= full_0/2or_0/B full_0/m1_164_n38#
+= full_0/2or_0/B full_0/half_0/2AND_0/Y
+C full_0/half_0/2AND_0/INV GND 2.68
+R full_0/half_0/2AND_0/INV 61
+R full_0/half_0/2XOR_0/a_45_8# 13
+R full_0/half_0/2XOR_0/a_0_40# 32
+C full_0/half_0/2XOR_0/INV_2/Y GND 5.13
+R full_0/half_0/2XOR_0/INV_2/Y 62
+= full_0/half_0/2XOR_0/INV_2/Y full_0/m1_116_n16#
+= full_0/half_0/2XOR_0/INV_2/Y full_0/half_0/2XOR_0/a_16_25#
+C B1 GND 7.92
+R B1 174
+= B1 full_0/B
+= B1 full_0/half_0/B
+= B1 full_0/half_0/2AND_0/B
+= B1 full_0/half_0/2XOR_0/B
+= B1 full_0/half_0/2XOR_0/INV_2/A
+C full_0/half_0/2XOR_0/INV_1/Y GND 2.52
+R full_0/half_0/2XOR_0/INV_1/Y 58
+= full_0/half_0/2XOR_0/INV_1/Y full_0/half_0/2XOR_0/a_2_25#
+C A1 GND 8.60
+R A1 174
+= A1 full_0/A
+= A1 full_0/half_0/A
+= A1 full_0/half_0/2AND_0/A
+= A1 full_0/half_0/2XOR_0/A
+= A1 full_0/half_0/2XOR_0/INV_1/A
+R full_0/2or_0/a_6_39# 12
+C full_0/2or_0/INV GND 3.26
+R full_0/2or_0/INV 79
+C half_0/2AND_0/INV GND 2.68
+R half_0/2AND_0/INV 61
+R half_0/2XOR_0/a_45_8# 13
+C S0 GND 3.26
+R S0 37
+= S0 half_0/S
+= S0 half_0/2XOR_0/Y
+R half_0/2XOR_0/a_0_40# 32
+C half_0/2XOR_0/INV_2/Y GND 5.13
+R half_0/2XOR_0/INV_2/Y 62
+= half_0/2XOR_0/INV_2/Y half_0/2XOR_0/a_16_25#
+C B0 GND 7.92
+R B0 174
+= B0 half_0/B
+= B0 half_0/2AND_0/B
+= B0 half_0/2XOR_0/B
+= B0 half_0/2XOR_0/INV_2/A
+C half_0/2XOR_0/INV_1/Y GND 2.52
+R half_0/2XOR_0/INV_1/Y 58
+= half_0/2XOR_0/INV_1/Y half_0/2XOR_0/a_2_25#
+C A0 GND 8.60
+R A0 174
+= A0 half_0/A
+= A0 half_0/2AND_0/A
+= A0 half_0/2XOR_0/A
+= A0 half_0/2XOR_0/INV_1/A

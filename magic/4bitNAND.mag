@@ -1,0 +1,50 @@
+magic
+tech scmos
+timestamp 1711496964
+<< metal1 >>
+rect 0 40 4 44
+rect 5 20 9 24
+rect 26 20 30 24
+rect 37 20 41 24
+rect 58 20 62 24
+rect 69 20 73 24
+rect 90 20 94 24
+rect 101 20 105 24
+rect 122 20 126 24
+rect 15 13 19 17
+rect 47 13 51 17
+rect 79 13 83 17
+rect 111 13 115 17
+rect 0 0 4 4
+use 2NAND  2NAND_0
+timestamp 1711062510
+transform 1 0 0 0 1 0
+box 0 0 32 44
+use 2NAND  2NAND_1
+timestamp 1711062510
+transform 1 0 32 0 1 0
+box 0 0 32 44
+use 2NAND  2NAND_2
+timestamp 1711062510
+transform 1 0 64 0 1 0
+box 0 0 32 44
+use 2NAND  2NAND_3
+timestamp 1711062510
+transform 1 0 96 0 1 0
+box 0 0 32 44
+<< labels >>
+rlabel metal1 7 22 7 22 1 A0
+rlabel metal1 17 15 17 15 1 B0
+rlabel metal1 39 22 39 22 1 A1
+rlabel metal1 49 15 49 15 1 B1
+rlabel metal1 71 22 71 22 1 A2
+rlabel metal1 81 15 81 15 1 B2
+rlabel metal1 92 22 92 22 1 Y2
+rlabel metal1 103 22 103 22 1 A3
+rlabel metal1 113 15 113 15 1 B3
+rlabel metal1 124 22 124 22 7 Y3
+rlabel metal1 2 42 2 42 4 VDD
+rlabel metal1 2 2 2 2 2 VSS
+rlabel metal1 28 22 28 22 1 Y0
+rlabel metal1 60 22 60 22 1 Y1
+<< end >>
