@@ -5,8 +5,8 @@ Project: Register File + ALU
 
 **Milestone Checklist**
 - [x] Preliminary project cell layouts: defines full schematic hierarchy and functionality.
-- [ ] updated version of your milestone #2 writeup with any changes based on comments made. [ updated MS#2 submission with errors fixed (Canvas)]
-  - [ ] conclusion is missing.
+- [x] updated version of your milestone #2 writeup with any changes based on comments made. [ updated MS#2 submission with errors fixed (Canvas)]
+  - [x] conclusion is missing.
   - [x] drop multiplication for ALU
   - [x] schematic is not working
   - [x] demonstrate loading of values to the reg file and operating on them
