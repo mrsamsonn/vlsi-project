@@ -1,7 +1,7 @@
 ## vlsi-project
 Project: Register File + ALU
 
-![](https://progress-bar.dev/49/?title=Magic:&width=150)  ![](https://progress-bar.dev/100/?title=Logisim:&width=150)
+![](https://progress-bar.dev/93/?title=Magic:&width=150)  ![](https://progress-bar.dev/100/?title=Logisim:&width=150)
 
 **Milestone Checklist**
 - [x] Preliminary project cell layouts: defines full schematic hierarchy and functionality.
@@ -36,11 +36,11 @@ Project: Register File + ALU
 
 </br> -- ** *Layer1: gate-level* **
 
-  - [ ] magic: 1-bit MUX3
-  - [ ] magic: 1-bit MUX2
-  - [ ] magic: 1-bit MUX8
-  - [ ] magic: 1-bit 3-to-8 Decoder
-  - [ ] magic: 1-bit D Flip Flop
+  - [x] magic: 1-bit MUX3
+  - [x] magic: 1-bit MUX2
+  - [x] magic: 1-bit MUX8
+  - [x] magic: 1-bit 3-to-8 Decoder
+  - [x] magic: 1-bit D Flip Flop
   - [x] magic: 1-bit full-Adder
   - [x] magic: 1-bit full-Subtractor
   - [x] magic: 1-bit half-Adder
@@ -52,17 +52,17 @@ Project: Register File + ALU
 
 </br> -- ** *Layer2: parts-level* **
 
-  - [ ] magic: 4-bit MUX3
-  - [ ] magic: 4-bit MUX8
-  - [ ] magic: 4-bit Register
-  - [ ] magic: 1-bit DFF with Enabler [merge MUX2 + DFF]
+  - [x] magic: 4-bit MUX3
+  - [x] magic: 4-bit MUX8
+  - [x] magic: 4-bit Register
+  - [x] magic: 1-bit DFF with Enabler [merge MUX2 + DFF]
   - [x] magic: 4-bit Adder
   - [x] magic: 4-bit Subtractor
 
 </br> -- ** *Layer3: block-level* **
 
   - [ ] magic: 4-bit Register File
-  - [ ] magic: 4-bit ALU
+  - [x] magic: 4-bit ALU
 
 </br> -- ** *Layer4: top-level [single block]* **
 
@@ -77,9 +77,9 @@ Project: Register File + ALU
 - [x] magic gate layouts
 - [x] make a single block as top level
 - [x] make sure all magic simulates properly (will help us in the long run before we build the parts)
-- [ ] build MUX3 in magic?
-- [ ] build Register File in magic?
-- [ ] build ALU in magic?
+- [x] build MUX3 in magic?
+- [x] build Register File in magic?
+- [x] build ALU in magic?
 
 **Issues**
 - [x] Fix DFF incorrect output
